@@ -1,11 +1,9 @@
-To make a smart speaker
-=======================
+DIY智能音箱
+==========
 
-[中文](zh.md)
+这是一份为DIY智能音箱或者语音交互设备而收集的资源列表，希望我们可以DIY一个可以日常使用的开源智能音箱。
 
-Here is a collection of resources to make a smart speaker. Hope we can make an open source one for daily use.
-
-The simplified flowchart of a smart speaker is like:
+语音交互的简化逻辑大致是这样的:
 
 ```
 +---+   +----------------+   +---+   +---+   +---+
@@ -18,17 +16,21 @@ The simplified flowchart of a smart speaker is like:
 +-------+   +---+   +----------------------+
 ```
 
-+ Audio Processing includes Acoustic Echo Cancellation (AEC), Beamforming, Noise Suppression (NS), etc.
-+ Keyword Spotting (KWS) detects a keyword (such as OK Google, Hey Siri) to start a conversation.
-+ Speech To Text (STT)
-+ Natural Language Understanding (NLU) converts raw text into structured data.
-+ Knowledge/Skill/Action - Knowledge base and plugins (Alexa Skill, Google Action) to provide an answer.
-+ Text To Speech
++ Audio Processing 即语音前端处理，包括回声消除 (Acoustic Echo Cancellation, AEC), 波束成形 (Beamforming), 降噪 (Noise Suppression, NS)等，现在主流采用阵列麦克风实现远场语音交互，开始有一些将神经网络跟经典语音处理算法结合的研究。
++ Keyword Spotting (KWS) 即关键词检测，用于检测OK Google、Hey Siri之类的关键词，然后开启一次对话。运行在终端设备，避免语音一直上传到云端
++ Speech To Text (STT) 即语音转文字，现在已经HMM+GMM全面切换到神经网络了
++ Natural Language Understanding (NLU) 即自然语言理解，用神经网络实现已经是主流了
++ Knowledge/Skill/Action 即知识库和扩展
++ Text To Speech 即文本转语音，Google的基于神经网络的WaveNet TTS已经开始应用在Google Assistant上了
+
+在语音、自然语言处理及图像领域，基于神经网络的机器学习非常有效，像Google的AI First和百度的All In AI，他们有能力把AI落地，而不是在建造空中楼阁。
 
 ------------------
 
 
 ### KWS + STT + NLU + Skill + TTS
+
+KWS、STT、NLU和TTS等这4个部分，最好的算法都是基于神经网络的。
 
 #### Active open source projects
 
@@ -37,7 +39,7 @@ The simplified flowchart of a smart speaker is like:
 
 
 #### SDK
-+ Amazon Alexa Voice Service - is the most widely used voice assistant
++ Amazon Alexa Voice Service - 
 
   + [C++ SDK)](https://github.com/alexa/avs-device-sdk)
   + [Java Client](https://github.com/alexa/alexa-avs-sample-app)
@@ -76,6 +78,9 @@ The simplified flowchart of a smart speaker is like:
 
 
 ### Audio Processing
+
+语音前端处理现在集中在麦克风阵列信号处理上，还不算成熟，远场、嘈杂环境、鸡尾酒效应还待解决。神经网络算法也开始被应用到DOA、Beamforming等算法上。
+
 + Acoustic Echo Cancellation
 
   + [SpeexDSP](https://github.com/xiph/speexdsp)
@@ -91,16 +96,9 @@ The simplified flowchart of a smart speaker is like:
   + MVDR Beamforming
   + GSC Beamforming
 
-+ Voice Activity Detection
-
-  + WebRTC VAD
-  + DNN VAD
-
 + Noise Suppresion
 
   + NS of WebRTC audio processing
-
-
 
 ### Audio I/O
 + PortAudio
