@@ -1,7 +1,7 @@
 DIY智能音箱
 ==========
 
-这是一份为DIY智能音箱或者语音交互设备而收集的资源列表，希望我们可以DIY一个可以日常使用的开源智能音箱。
+这是一份为DIY智能音箱或者语音交互设备而收集的资源列表，希望最终我们可以DIY一个可以日常使用的开源智能音箱。
 
 语音交互的简化逻辑大致是这样的:
 
@@ -27,19 +27,20 @@ DIY智能音箱
 
 ------------------
 
+这个列表以语音交互技术栈的各部分划分。
 
 ### KWS + STT + NLU + Skill + TTS
 
-KWS、STT、NLU和TTS等这4个部分，最好的算法都是基于神经网络的。
+提供比较完整语音交互技术栈是比较难，并且KWS、STT、NLU和TTS等这4个部分，最好的算法都是基于神经网络的，近几年发展得非常迅速。
 
-#### Active open source projects
+其中一些活跃的开源项目值得去了解和参与：
 
-+ [Mycroft :star:](https://github.com/MycroftAI/mycroft-core) -  a hackable open source voice assistant
++ [Mycroft :star:](https://github.com/MycroftAI/mycroft-core) -  
 + [dingdang robot](https://github.com/wzpan/dingdang-robot) - a :cn: voice interaction robot based on [Jasper](https://github.com/jasperproject/jasper-client) and built with raspberry pi
 
 
-#### SDK
-+ Amazon Alexa Voice Service - 
+基于巨头的云服务和SDK，可以快速打造一个语音交互设备。
++ Amazon Alexa Voice Service - 拥有最多的用户、开发者和第三方合作商，
 
   + [C++ SDK)](https://github.com/alexa/avs-device-sdk)
   + [Java Client](https://github.com/alexa/alexa-avs-sample-app)
@@ -47,7 +48,7 @@ KWS、STT、NLU和TTS等这4个部分，最好的算法都是基于神经网络�
 
 + [Google Assistant SDK](https://github.com/googlesamples/assistant-sdk-python)
 
-  It has the smartest brain, its extension called Google Action can be created on a few steps with digitalflow.ai and its Device Action is very suit for home smart devices.
+  Google则有最好的技术，Google Assistant通过 digitalflow.ai 可以快速扩展，其Device Action可以很好联动本地设备
 
 + [Baidu DuerOS](https://github.com/dueros)
 
