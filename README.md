@@ -51,6 +51,7 @@ The simplified flowchart of a smart speaker is like:
 
 
 ### KWS
++ [Mycroft Precise](https://github.com/MycroftAI/mycroft-precise) - A lightweight, simple-to-use, RNN wake word listener
 + [Snowboy](https://github.com/Kitt-AI/snowboy) - DNN based hotword and wake word detection toolkit
 + [Honk](https://github.com/castorini/honk) - PyTorch reimplementation of Google's TensorFlow CNNs for keyword spotting
 + [ML-KWS-For-MCU](https://github.com/ARM-software/ML-KWS-for-MCU) - Maybe the most promise for resource constrained devices such as ARM Cortex M7 microcontroller
@@ -65,7 +66,8 @@ The simplified flowchart of a smart speaker is like:
 + [Rasa NLU](https://github.com/RasaHQ/rasa_nlu)
 
   + [Rasa NLU for Chinese](https://github.com/crownpku/Rasa_NLU_Chi)
-
+  
++ [Snips NLU](https://github.com/snipsco/snips-nlu) - a Python library that allows to parse sentences written in natural language and extracts structured information.
 
 ### TTS
 + [Mimic](https://github.com/MycroftAI/mimic) - Mycroft's TTS engine, based on CMU's Flite (Festival Lite)
@@ -78,10 +80,11 @@ The simplified flowchart of a smart speaker is like:
 ### Audio Processing
 + Acoustic Echo Cancellation
 
-  + [SpeexDSP](https://github.com/xiph/speexdsp)
+  + [SpeexDSP](https://github.com/xiph/speexdsp), its python binding [speexdsp-python](github.com/xiongyihui/speexdsp-python)
 
 + Direction Of Arrival (DOA) - Most used DOA algorithms is GCC-PHAT
 
+  + [tdoa](github.com/xiongyihui/tdoa)
   + [odas](https://github.com/introlab/odas)
 
 + [Beamforming](https://github.com/search?utf8=%E2%9C%93&q=beamforming&type=)
@@ -93,17 +96,18 @@ The simplified flowchart of a smart speaker is like:
 
 + Voice Activity Detection
 
-  + WebRTC VAD
+  + WebRTC VAD, [py-webrtcvad](https://github.com/wiseman/py-webrtcvad)
   + DNN VAD
 
 + Noise Suppresion
 
-  + NS of WebRTC audio processing
+  + NS of WebRTC audio processing, [python-webrtc-audio-processing](https://github.com/xiongyihui/python-webrtc-audio-processing)
 
 
 
 ### Audio I/O
-+ PortAudio
++ PortAudio, pyaudio
 + [libsoundio](https://github.com/andrewrk/libsoundio)
 + ALSA
 + PulseAudio
++ [Pipewire](https://github.com/PipeWire/pipewire)
