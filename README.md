@@ -33,13 +33,13 @@ The simplified flowchart of a smart speaker is like:
 #### Active open source projects
 
 + [Mycroft :star:](https://github.com/MycroftAI/mycroft-core) -  a hackable open source voice assistant
-+ [dingdang robot](https://github.com/wzpan/dingdang-robot) - a :cn: voice interaction robot based on [Jasper](https://github.com/jasperproject/jasper-client) and built with raspberry pi
++ [dingdang robot](https://github.com/dingdang-robot/dingdang-robot) - a :cn: voice interaction robot based on [Jasper](https://github.com/jasperproject/jasper-client) and built with raspberry pi
 
 
 #### SDK
 + Amazon Alexa Voice Service - is the most widely used voice assistant
 
-  + [C++ SDK)](https://github.com/alexa/avs-device-sdk)
+  + [C++ SDK](https://github.com/alexa/avs-device-sdk)
   + [Java Client](https://github.com/alexa/alexa-avs-sample-app)
   + [Python Client](https://github.com/respeaker/avs)
 
