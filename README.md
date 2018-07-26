@@ -81,11 +81,12 @@ The simplified flowchart of a smart speaker is like:
 + Acoustic Echo Cancellation
 
   + [SpeexDSP](https://github.com/xiph/speexdsp), its python binding [speexdsp-python](github.com/xiongyihui/speexdsp-python)
+  + [EC](https://github.com/voice-engine/ec) - Echo Cancelation Daemon based on SpeexDSP AEC for Raspberry Pi or other devices running Linux.
 
 + Direction Of Arrival (DOA) - Most used DOA algorithms is GCC-PHAT
 
-  + [tdoa](github.com/xiongyihui/tdoa)
-  + [odas](https://github.com/introlab/odas)
+  + [tdoa](https://github.com/xiongyihui/tdoa)
+  + [odas](https://github.com/introlab/odas) - ODAS stands for Open embeddeD Audition System. This is a library dedicated to perform sound source localization, tracking, separation and post-filtering. ODAS is coded entirely in C, for more portability, and is optimized to run easily on low-cost embedded hardware. ODAS is free and open source.
 
 + [Beamforming](https://github.com/search?utf8=%E2%9C%93&q=beamforming&type=)
 
