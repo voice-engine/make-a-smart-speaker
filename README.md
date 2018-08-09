@@ -33,6 +33,7 @@ The simplified flowchart of a smart speaker is like:
 #### Active open source projects
 
 + [Mycroft :star:](https://github.com/MycroftAI/mycroft-core) -  a hackable open source voice assistant
++ [Kalliope](https://github.com/kalliope-project/kalliope) - a framework that will help you to create your own personal assistant, kind of similar with Mycroft (Both written by Python)
 + [dingdang robot](https://github.com/dingdang-robot/dingdang-robot) - a :cn: voice interaction robot based on [Jasper](https://github.com/jasperproject/jasper-client) and built with raspberry pi
 
 
