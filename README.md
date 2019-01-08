@@ -33,14 +33,14 @@ The simplified flowchart of a smart speaker is like:
 #### Active open source projects
 
 + [Snips :star:](https://snips.ai) - the first 100% on-device and private-by-design open-source Voice AI platform
-+ [Mycroft :star:](https://github.com/MycroftAI/mycroft-core) -  a hackable open source voice assistant
++ [Mycroft :star:](https://github.com/MycroftAI/mycroft-core) - a hackable open source voice assistant
++ [SEPIA :robot:](https://sepia-framework.github.io/) - Highly customizable, open-source, cross-platform voice assistant and VUI framework (HTML + Java + x)
 + [Kalliope](https://github.com/kalliope-project/kalliope) - a framework that will help you to create your own personal assistant, kind of similar with Mycroft (Both written by Python)
 + [dingdang robot](https://github.com/dingdang-robot/dingdang-robot) - a :cn: voice interaction robot based on [Jasper](https://github.com/jasperproject/jasper-client) and built with raspberry pi
 
 
 #### SDK
 + Amazon Alexa Voice Service - is the most widely used voice assistant
-
   + [C++ SDK](https://github.com/alexa/avs-device-sdk)
   + [Java Client](https://github.com/alexa/alexa-avs-sample-app)
   + [Python Client](https://github.com/respeaker/avs)
@@ -54,12 +54,15 @@ The simplified flowchart of a smart speaker is like:
 + [Snips](https://snips.ai)
   + [Install Snips](https://snips.gitbook.io/documentation/installing-snips) on Raspberry Pi 3, Linux, osX, iOS and Android
 
++ [SEPIA Installation](https://medium.com/sepia-framework/hosting-your-own-private-virtual-assistant-533b86553d63), [SEPIA with Porcupine + ReSpeaker](https://github.com/SEPIA-Framework/sepia-wakeword-tools/tree/master/Porcupine)
+
 
 ### KWS
 + [Mycroft Precise](https://github.com/MycroftAI/mycroft-precise) - A lightweight, simple-to-use, RNN wake word listener
 + [Snowboy](https://github.com/Kitt-AI/snowboy) - DNN based hotword and wake word detection toolkit
 + [Honk](https://github.com/castorini/honk) - PyTorch reimplementation of Google's TensorFlow CNNs for keyword spotting
 + [ML-KWS-For-MCU](https://github.com/ARM-software/ML-KWS-for-MCU) - Maybe the most promise for resource constrained devices such as ARM Cortex M7 microcontroller
++ [Porcupine](https://picovoice.ai/products/#wake-word) - Lightweight, cross-platform engine to build custom wake words in seconds
 
 ### STT
 + [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) - A TensorFlow implementation of Baidu's DeepSpeech architecture
