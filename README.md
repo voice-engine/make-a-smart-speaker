@@ -3,7 +3,10 @@ To make a smart speaker
 
 [中文](zh.md)
 
-Here is a collection of resources to make a smart speaker. Hope we can make an open source one for daily use.
+
+I believe we have enough resources to make an open source smart speaker. Let's do it. Just created [a project called `smart speaker from scratch` on hackaday](https://hackaday.io/project/164221-smart-speaker-from-scratch). Check it out to see what we can make.
+
+Here is a collection of resources to make a smart speaker. ~~Hope we can make an open source one for daily use.~~
 
 The simplified flowchart of a smart speaker is like:
 
