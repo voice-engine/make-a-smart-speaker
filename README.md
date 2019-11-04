@@ -4,7 +4,12 @@ To make a smart speaker
 [中文](zh.md)
 
 Here is a collection of resources to make a smart speaker. ~~Hope we can make an open source one for daily use.~~ 
-I believe we have enough resources to make an open source smart speaker. Let's do it. Just created [a project called `smart speaker from scratch` on hackaday](https://hackaday.io/project/164221-smart-speaker-from-scratch). Check it out to see what we can make.
+I believe we have enough resources to make an open source smart speaker. Let's do it. Take a look at [the progress of the project named `smart speaker from scratch` on hackaday](https://hackaday.io/project/164221-smart-speaker-from-scratch).
+
+The first kit of the project will be available at the end of November. [It is on pre-order Now!](https://www.makerfabs.com/voicen-linear-4-mic-array-kit.html)
+
+![](https://wiki.voicen.io/assets/images/speaker_front.png)
+
 
 The simplified flowchart of a smart speaker is like:
 
@@ -68,6 +73,8 @@ The simplified flowchart of a smart speaker is like:
 ### STT
 + [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) - A TensorFlow implementation of Baidu's DeepSpeech architecture
 + [Kaldi](https://github.com/kaldi-asr/kaldi)
++ [wav2letter++](https://github.com/facebookresearch/wav2letter) -  a fast, open source speech processing toolkit from the Speech team at Facebook AI Research built to facilitate research in end-to-end models for speech recognition. 
++ [Zamia Speech](https://github.com/gooofy/zamia-speech) - Open tools, data, models (kaldi models and wav2letter++ models) for cloudless automatic speech recognition. It can be run on Raspberry Pi
 + [PocketSphinx](https://github.com/cmusphinx/pocketsphinx) - a lightweight speech recognition engine using HMM + GMM
 
 
@@ -79,6 +86,7 @@ The simplified flowchart of a smart speaker is like:
 + [Snips NLU](https://github.com/snipsco/snips-nlu) - a Python library that allows to parse sentences written in natural language and extracts structured information.
 
 ### TTS
++ [Mozilla TTS](https://github.com/mozilla/TTS) - Deep learning for Text to Speech
 + [Mimic](https://github.com/MycroftAI/mimic) - Mycroft's TTS engine, based on CMU's Flite (Festival Lite)
 + [manytts](https://github.com/marytts/marytts) - an open-source, multilingual text-to-speech synthesis system written in pure java
 + [espeak-ng](https://github.com/espeak-ng/espeak-ng) - an open source speech synthesizer that supports 99 languages and accents.
