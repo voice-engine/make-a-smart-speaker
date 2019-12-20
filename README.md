@@ -4,9 +4,7 @@ To make a smart speaker
 [中文](zh.md)
 
 Here is a collection of resources to make a smart speaker. ~~Hope we can make an open source one for daily use.~~ 
-I believe we have enough resources to make an open source smart speaker. Let's do it. Take a look at [the progress of the project named `smart speaker from scratch` on hackaday](https://hackaday.io/project/164221-smart-speaker-from-scratch).
-
-The first kit of the project will be available at the end of November. [It is on pre-order Now!](https://www.makerfabs.com/voicen-linear-4-mic-array-kit.html)
+I believe we have enough resources to make an open source smart speaker. Let's do it. Take a look at [the progress of the project named `smart speaker from scratch` on hackaday](https://hackaday.io/project/164221-smart-speaker-from-scratch). [The first hardware kit is available now.](https://www.makerfabs.com/voicen-linear-4-mic-array-kit.html)
 
 ![](https://wiki.voicen.io/assets/images/speaker_front.png)
 
